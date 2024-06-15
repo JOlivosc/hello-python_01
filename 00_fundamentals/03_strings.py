@@ -28,3 +28,37 @@ print(f"Mi nombre es {name} {surname} y mi edad es {age}") # Esta forma es la me
 
 ### Desenpaquetado de caracteres ###
 
+language = "python"
+a, b, c, d, e, f = language
+print(a)
+print(e)
+
+### División ###
+
+language_slice = language[1:3]
+print(language_slice)
+
+language_slice = language[1:]
+print(language_slice)
+
+language_slice = language[-2]
+print(language_slice)
+
+language_slice = language[0:6:2]
+print(language_slice)
+
+### Reverse ###
+
+reversed_language = language[::-1]
+print(reversed_language)
+
+### Functions ###
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print("1".isnumeric())
+print(language.lower())
+print(language.lower().isupper())
+print(language.startswith("Py"))
