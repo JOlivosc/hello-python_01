@@ -1,2 +1,2 @@
 # hello-python_01
-Fundamentals
+En este espacio repasaremos los Fundamentos de Python.
